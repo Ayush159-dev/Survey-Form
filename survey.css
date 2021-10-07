@@ -1,0 +1,79 @@
+body{
+    background-image: url(https://www.bettercloud.com/wp-content/uploads/bb-plugin/cache/mdblue-pattern-landscape.png);
+    color:lightcyan;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+  }
+#title{
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    font-size: 50px;
+}
+#description{
+    line-height: 60px;
+    font-size: larger;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+input[type=text] {
+    width: 400px;
+    padding: 6px 10px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+}
+input[type=number], #dropdown, #email {
+    width: 400px;
+    padding: 6px 10px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+form{
+    color: black;
+    font-weight: bold;
+}
+.form-group{
+    display: block;
+    text-align: center;
+  }
+  #description{
+      display: block;
+     text-align: center;
+  }
+  #title{
+    display: block;
+    text-align: center;
+    margin: 25px 5px;
+    padding: 0;
+}
+.submit-button{
+    background-color: black;
+    color: blanchedalmond;
+    width: 400px;
+    height: 40px;
+    font-weight: bold;
+    padding: 3px 50px;
+    margin-bottom: 150px;
+}
+.input-textarea{
+    width: 400px;
+    height: 120px;
+    margin: 12px 0;
+    padding: 6px 10px;
+}
+.form-group p{
+    margin-top: 20px;
+}
